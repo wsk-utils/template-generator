@@ -1,0 +1,17 @@
+{
+  "name": "template-generator",
+  "version": "0.1.0",
+  "description": "CLI tool for generate a application template",
+  "main": "index.js",
+  "bin": {
+    "project-init": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "inquirer": "^8.2.4",
+    "simple-git": "^3.19.1"
+  }
+}
